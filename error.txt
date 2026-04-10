@@ -1,0 +1,115 @@
+nayan@ServerHive:~/nexus$ grep -r "qccsyshal" vendor/nothing/asteroids/ device/nothing/asteroids/ vendor/pixel/
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.hardware.qccsyshal@1.0_vendor",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.hardware.qccsyshal@1.1_vendor",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.hardware.qccsyshal@1.2_vendor",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.hardware.qccsyshal@1.2_vendor",
+vendor/nothing/asteroids/Android.bp:    name: "vendor.qti.hardware.qccsyshal@1.0_vendor",
+vendor/nothing/asteroids/Android.bp:    stem: "vendor.qti.hardware.qccsyshal@1.0",
+vendor/nothing/asteroids/Android.bp:                "proprietary/vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so",
+vendor/nothing/asteroids/Android.bp:    name: "vendor.qti.hardware.qccsyshal@1.1_vendor",
+vendor/nothing/asteroids/Android.bp:    stem: "vendor.qti.hardware.qccsyshal@1.1",
+vendor/nothing/asteroids/Android.bp:                "proprietary/vendor/lib64/vendor.qti.hardware.qccsyshal@1.1.so",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.hardware.qccsyshal@1.0_vendor",
+vendor/nothing/asteroids/Android.bp:    name: "vendor.qti.hardware.qccsyshal@1.2_vendor",
+vendor/nothing/asteroids/Android.bp:    stem: "vendor.qti.hardware.qccsyshal@1.2",
+vendor/nothing/asteroids/Android.bp:                "proprietary/vendor/lib64/vendor.qti.hardware.qccsyshal@1.2.so",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.hardware.qccsyshal@1.0_vendor",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.hardware.qccsyshal@1.1_vendor",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.hardware.qccsyshal@1.2",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.qccsyshal_aidl-V1-ndk",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.hardware.qccsyshal@1.2",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.qccsyshal_aidl-V1-ndk",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.hardware.qccsyshal@1.2",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.qccsyshal_aidl-V1-ndk",
+vendor/nothing/asteroids/Android.bp:    name: "vendor.qti.hardware.qccsyshal@1.0",
+vendor/nothing/asteroids/Android.bp:                "proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0.so",
+vendor/nothing/asteroids/Android.bp:    name: "vendor.qti.hardware.qccsyshal@1.1",
+vendor/nothing/asteroids/Android.bp:                "proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.1.so",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.hardware.qccsyshal@1.0",
+vendor/nothing/asteroids/Android.bp:    name: "vendor.qti.hardware.qccsyshal@1.2-halimpl",
+vendor/nothing/asteroids/Android.bp:                "proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.hardware.qccsyshal@1.2",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.hardware.qccsyshal@1.1",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.hardware.qccsyshal@1.0",
+vendor/nothing/asteroids/Android.bp:    name: "vendor.qti.hardware.qccsyshal@1.2",
+vendor/nothing/asteroids/Android.bp:                "proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2.so",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.hardware.qccsyshal@1.0",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.hardware.qccsyshal@1.1",
+vendor/nothing/asteroids/Android.bp:    name: "vendor.qti.qccsyshal_aidl-V1-ndk",
+vendor/nothing/asteroids/Android.bp:                "proprietary/system_ext/lib64/vendor.qti.qccsyshal_aidl-V1-ndk.so",
+vendor/nothing/asteroids/Android.bp:    name: "vendor.qti.qccsyshal_aidl-halimpl",
+vendor/nothing/asteroids/Android.bp:                "proprietary/system_ext/lib64/vendor.qti.qccsyshal_aidl-halimpl.so",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.qccsyshal_aidl-V1-ndk",
+vendor/nothing/asteroids/Android.bp:    name: "vendor.qti.qccsyshal_aidl-service.xml",
+vendor/nothing/asteroids/Android.bp:    src: "proprietary/system_ext/etc/vintf/manifest/vendor.qti.qccsyshal_aidl-service.xml",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.hardware.qccsyshal@1.2_vendor",
+vendor/nothing/asteroids/Android.bp:    name: "qccsyshal@1.2-service",
+vendor/nothing/asteroids/Android.bp:                "proprietary/system_ext/bin/qccsyshal@1.2-service",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.hardware.qccsyshal@1.2-halimpl",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.hardware.qccsyshal@1.2",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.hardware.qccsyshal@1.1",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.hardware.qccsyshal@1.0",
+vendor/nothing/asteroids/Android.bp:    name: "qccsyshal_aidl-service",
+vendor/nothing/asteroids/Android.bp:                "proprietary/system_ext/bin/qccsyshal_aidl-service",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.qccsyshal_aidl-V1-ndk",
+vendor/nothing/asteroids/Android.bp:                "vendor.qti.qccsyshal_aidl-halimpl",
+grep: vendor/nothing/asteroids/proprietary/vendor/lib64/libqcc_sdk.so: binary file matches
+grep: vendor/nothing/asteroids/proprietary/vendor/lib64/vendor.qti.hardware.qccsyshal@1.1.so: binary file matches
+grep: vendor/nothing/asteroids/proprietary/vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so: binary file matches
+grep: vendor/nothing/asteroids/proprietary/vendor/lib64/libqcc_file_agent.so: binary file matches
+grep: vendor/nothing/asteroids/proprietary/vendor/lib64/vendor.qti.hardware.qccsyshal@1.2.so: binary file matches
+grep: vendor/nothing/asteroids/proprietary/vendor/bin/qcc-vendor: binary file matches
+grep: vendor/nothing/asteroids/proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.1.so: binary file matches
+grep: vendor/nothing/asteroids/proprietary/system_ext/lib64/libqccfileservice.so: binary file matches
+grep: vendor/nothing/asteroids/proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0.so: binary file matches
+grep: vendor/nothing/asteroids/proprietary/system_ext/lib64/vendor.qti.qccsyshal_aidl-V1-ndk.so: binary file matches
+grep: vendor/nothing/asteroids/proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so: binary file matches
+grep: vendor/nothing/asteroids/proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2.so: binary file matches
+grep: vendor/nothing/asteroids/proprietary/system_ext/lib64/vendor.qti.qccsyshal_aidl-halimpl.so: binary file matches
+grep: vendor/nothing/asteroids/proprietary/system_ext/lib64/libqcc.so: binary file matches
+grep: vendor/nothing/asteroids/proprietary/system_ext/lib64/libqccdme.so: binary file matches
+grep: vendor/nothing/asteroids/proprietary/system_ext/bin/qccsyshal_aidl-service: binary file matches
+grep: vendor/nothing/asteroids/proprietary/system_ext/bin/qccsyshal@1.2-service: binary file matches
+vendor/nothing/asteroids/proprietary/system_ext/etc/vintf/manifest/vendor.qti.qccsyshal_aidl-service.xml:        vendor/qcom/proprietary/commonsys/qcc/aidl/hal/qccsyshal_aidl/vendor.qti.qccsyshal_aidl-service.xml
+vendor/nothing/asteroids/proprietary/system_ext/etc/vintf/manifest/vendor.qti.qccsyshal_aidl-service.xml:        <name>vendor.qti.qccsyshal_aidl</name>
+vendor/nothing/asteroids/proprietary/system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc:    stop qccsyshal@1.2-service
+vendor/nothing/asteroids/proprietary/system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc:service qccsyshal@1.2-service /system/system_ext/bin/qccsyshal@1.2-service
+vendor/nothing/asteroids/proprietary/system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc:    stop qccsyshal@1.2-service
+vendor/nothing/asteroids/proprietary/system_ext/etc/init/vendor.qti.qccsyshal_aidl-service.rc:#    start qccsyshal_aidl-service
+vendor/nothing/asteroids/proprietary/system_ext/etc/init/vendor.qti.qccsyshal_aidl-service.rc:service qccsyshal_aidl-service /system_ext/bin/qccsyshal_aidl-service
+vendor/nothing/asteroids/proprietary/system_ext/etc/init/vendor.qti.qccsyshal_aidl-service.rc:    interface aidl vendor.qti.qccsyshal_aidl
+vendor/nothing/asteroids/proprietary/system_ext/etc/init/vendor.qti.qccsyshal_aidl-service.rc:    stop qccsyshal_aidl-service
+vendor/nothing/asteroids/asteroids-vendor.mk:    vendor/nothing/asteroids/proprietary/system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc \
+vendor/nothing/asteroids/asteroids-vendor.mk:    vendor/nothing/asteroids/proprietary/system_ext/etc/init/vendor.qti.qccsyshal_aidl-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.qccsyshal_aidl-service.rc \
+vendor/nothing/asteroids/asteroids-vendor.mk:    vendor.qti.hardware.qccsyshal@1.0_vendor \
+vendor/nothing/asteroids/asteroids-vendor.mk:    vendor.qti.hardware.qccsyshal@1.1_vendor \
+vendor/nothing/asteroids/asteroids-vendor.mk:    vendor.qti.hardware.qccsyshal@1.2_vendor \
+vendor/nothing/asteroids/asteroids-vendor.mk:    vendor.qti.hardware.qccsyshal@1.0 \
+vendor/nothing/asteroids/asteroids-vendor.mk:    vendor.qti.hardware.qccsyshal@1.1 \
+vendor/nothing/asteroids/asteroids-vendor.mk:    vendor.qti.hardware.qccsyshal@1.2-halimpl \
+vendor/nothing/asteroids/asteroids-vendor.mk:    vendor.qti.hardware.qccsyshal@1.2 \
+vendor/nothing/asteroids/asteroids-vendor.mk:    vendor.qti.qccsyshal_aidl-V1-ndk \
+vendor/nothing/asteroids/asteroids-vendor.mk:    vendor.qti.qccsyshal_aidl-halimpl \
+vendor/nothing/asteroids/asteroids-vendor.mk:    vendor.qti.qccsyshal_aidl-service.xml \
+vendor/nothing/asteroids/asteroids-vendor.mk:    qccsyshal@1.2-service \
+vendor/nothing/asteroids/asteroids-vendor.mk:    qccsyshal_aidl-service \
+device/nothing/asteroids/vintf/framework_manifest.xml:        <name>vendor.qti.hardware.qccsyshal</name>
+device/nothing/asteroids/vintf/framework_manifest.xml:            <instance>qccsyshal</instance>
+device/nothing/asteroids/extract-files.py:        'vendor.qti.hardware.qccsyshal@1.0',
+device/nothing/asteroids/extract-files.py:        'vendor.qti.hardware.qccsyshal@1.1',
+device/nothing/asteroids/extract-files.py:        'vendor.qti.hardware.qccsyshal@1.2',
+device/nothing/asteroids/proprietary-files.txt:system_ext/bin/qccsyshal@1.2-service
+device/nothing/asteroids/proprietary-files.txt:system_ext/bin/qccsyshal_aidl-service
+device/nothing/asteroids/proprietary-files.txt:system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc
+device/nothing/asteroids/proprietary-files.txt:system_ext/etc/init/vendor.qti.qccsyshal_aidl-service.rc
+device/nothing/asteroids/proprietary-files.txt:system_ext/etc/vintf/manifest/vendor.qti.qccsyshal_aidl-service.xml
+device/nothing/asteroids/proprietary-files.txt:system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0.so
+device/nothing/asteroids/proprietary-files.txt:system_ext/lib64/vendor.qti.hardware.qccsyshal@1.1.so
+device/nothing/asteroids/proprietary-files.txt:system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so
+device/nothing/asteroids/proprietary-files.txt:system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2.so
+device/nothing/asteroids/proprietary-files.txt:system_ext/lib64/vendor.qti.qccsyshal_aidl-V1-ndk.so
+device/nothing/asteroids/proprietary-files.txt:system_ext/lib64/vendor.qti.qccsyshal_aidl-halimpl.so
+device/nothing/asteroids/proprietary-files.txt:vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so;MODULE_SUFFIX=_vendor
+device/nothing/asteroids/proprietary-files.txt:vendor/lib64/vendor.qti.hardware.qccsyshal@1.1.so;MODULE_SUFFIX=_vendor
+device/nothing/asteroids/proprietary-files.txt:vendor/lib64/vendor.qti.hardware.qccsyshal@1.2.so;MODULE_SUFFIX=_vendor
+nayan@ServerHive:~/nexus$ 
